@@ -1,6 +1,10 @@
 # Irlp
 
-TODO: Write a gem description
+[![Gem Version](https://badge.fury.io/rb/irlp.png)](http://badge.fury.io/rb/irlp)
+
+Retrieve information from the IRLP network, such as reflector and node status, location, and membership.
+
+The Internet Radio Linking Project is a network of amateur radio repeaters that are linked together across regions via the Internet. The IRLP allows people to make contact with others across the world without needing long distance (DX) equipment and licenses.
 
 ## Installation
 
@@ -18,7 +22,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### Get reflectors
+
+```ruby
+Irlp::Scraper.new.reflectors
+```
+
+which returns an `Array` of `Hash`es similar to:
+
+```ruby
+[{:id=>9000, :name=>"Vancouver"}, {:id=>9010, :name=>"Discovery Reflector"}, {:id=>9020, :name=>"Vancouver 2010"}, {:id=>9030, :name=>"Ontario Public Service Reflector"}, {:id=>9050, :name=>"East Coast Reflector"}, {:id=>9070, :name=>"Alaska Reflector"}, {:id=>9090, :name=>"Western Reflector Annex"}, {:id=>9100, :name=>"WIN System Reflector"}, {:id=>9120, :name=>"New England Reflector"}, {:id=>9190, :name=>"Seattle"}, {:id=>9200, :name=>"Crossroads Reflector"}, {:id=>9210, :name=>"Raleigh"}, {:id=>9220, :name=>"openIRLP Reflector"}, {:id=>9250, :name=>"Western Reflector"}, {:id=>9300, :name=>"Saskatchewan Reflector"}, {:id=>9310, :name=>"Fredericton"}, {:id=>9330, :name=>"Central Region Reflector"}, {:id=>9350, :name=>"LAX - [WALA] Hub"}, {:id=>9360, :name=>"Michigan (Fenton) Reflector"}, {:id=>9440, :name=>"Internet2 Research Reflector"}, {:id=>9450, :name=>"Dallas"}, {:id=>9500, :name=>"Sydney - Virtual PUB"}, {:id=>9550, :name=>"Adelaide - Virtual Pub Back Bar"}, {:id=>9610, :name=>"Great Lakes Reflector"}, {:id=>9620, :name=>"Wisconsin Reflector"}, {:id=>9660, :name=>"Micro-Node Reflector"}, {:id=>9730, :name=>"Crossroads Annex"}, {:id=>9750, :name=>"The UK Reflector"}, {:id=>9770, :name=>"Norwegian Reflector"}, {:id=>9870, :name=>"Denver Reflector"}, {:id=>9900, :name=>"Fort Smith"}]
+```
 
 ## Contributing
 
