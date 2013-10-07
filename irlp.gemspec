@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Irlp::VERSION
   spec.authors       = ["Kevin Elliott"]
   spec.email         = ["kevin@welikeinc.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{Ruby gem to interact with the Internet Radio Linking Project (IRLP), such as retrieving reflector and node status.}
+  spec.summary       = %q{Ruby gem to interact with the Internet Radio Linking Project (IRLP).}
+  spec.homepage      = "http://github.com/kevinelliott/irlp"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'curd'
   spec.add_dependency 'nokogiri'
-  
+
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
 end
