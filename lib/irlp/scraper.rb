@@ -16,6 +16,7 @@ module Irlp
           name: cols[1].text.split.join(' ')
         }
       end
+
       reflectors.each { |r| puts "#{r[:id]}: #{r[:name]}"}
       reflectors
     end
@@ -39,6 +40,7 @@ module Irlp
           status_link: "#{Irlp::BASE_URL}/index.php?PSTART=11&nodeid=#{cols[0].text}"
         }
       end
+
       nodes.each { |r| puts "#{r[:id]}: #{r[:call_sign]}"}
       nodes
     end
@@ -79,6 +81,7 @@ module Irlp
           node[:website] = data.css('a')[0].attr(:href).text if data.css('a').size > 0
         end
       end
+      
       node
     end
 
