@@ -1,4 +1,4 @@
-# Irlp
+# irlp
 
 [![Gem Version](https://badge.fury.io/rb/irlp.png)](http://badge.fury.io/rb/irlp)
 
