@@ -6,6 +6,8 @@ Retrieve information from the IRLP network, such as reflector and node status, l
 
 The Internet Radio Linking Project is a network of amateur radio repeaters that are linked together across regions via the Internet. The IRLP allows people to make contact with others across the world without needing long distance (DX) equipment and licenses.
 
+Related: [kevinelliott/call_sign](https://github.com/kevinelliott/call_sign) and [kevinelliott/echo_link](https://github.com/kevinelliott/echo_link)
+
 ## Installation
 
 Add this line to your application's Gemfile:
