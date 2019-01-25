@@ -1,7 +1,12 @@
-# irlp
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/kevinelliott/irlp?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+<h1 align="center" style="text-align:center">irlp</h1>
 
-[![Gem Version](https://badge.fury.io/rb/irlp.png)](http://badge.fury.io/rb/irlp)
+<p align="center">
+  <a href="http://badge.fury.io/rb/irlp"><img src="https://badge.fury.io/rb/irlp.png"/></a>
+  <a href="https://circleci.com/gh/kevinelliott/irlp/tree/master"><img src="https://badgen.net/circleci/github/kevinelliott/irlp/master" alt="Build Status"></a>
+  <a href="https://codecov.io/gh/kevinelliott/irlp"><img src="https://badgen.net/codecov/c/github/kevinelliott/irlp/master" alt="Code coverage (codecov)"></a>
+  <a href="https://gitter.im/irlp/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link"><img src="https://badgen.net/badge/chat/on%20gitter/cyan" alt="Join us Gitter"></a>
+  <a href="https://app.fossa.io/projects/git%2Bgithub.com%2Fkevinelliott%2Firlp?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2Fkevinelliott%2Firlp.svg?type=shield"/></a>
+</p>
 
 Retrieve information from the IRLP network, such as reflector and node status, location, and membership.
 
