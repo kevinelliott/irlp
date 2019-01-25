@@ -49,3 +49,7 @@ which returns an `Array` of `Hash`es similar to:
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## License
+ [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fkevinelliott%2Firlp.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fkevinelliott%2Firlp?ref=badge_large)
+ 
